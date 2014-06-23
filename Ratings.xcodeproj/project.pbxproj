@@ -48,6 +48,7 @@
 		EAB3B94C1958C998001E0360 /* PlayersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EAB3B94B1958C998001E0360 /* PlayersViewController.m */; };
 		EAB3B94F1958CA23001E0360 /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = EAB3B94E1958CA23001E0360 /* Player.m */; };
 		EAB3B9521958D425001E0360 /* PlayerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EAB3B9511958D425001E0360 /* PlayerCell.m */; };
+		EAB93C331958DFDC004C9BA5 /* PlayerDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EAB93C321958DFDC004C9BA5 /* PlayerDetailsViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -110,6 +111,8 @@
 		EAB3B94E1958CA23001E0360 /* Player.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Player.m; sourceTree = "<group>"; };
 		EAB3B9501958D425001E0360 /* PlayerCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerCell.h; sourceTree = "<group>"; };
 		EAB3B9511958D425001E0360 /* PlayerCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerCell.m; sourceTree = "<group>"; };
+		EAB93C311958DFDC004C9BA5 /* PlayerDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerDetailsViewController.h; sourceTree = "<group>"; };
+		EAB93C321958DFDC004C9BA5 /* PlayerDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerDetailsViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -183,6 +186,8 @@
 				EAB3B94E1958CA23001E0360 /* Player.m */,
 				EAB3B9501958D425001E0360 /* PlayerCell.h */,
 				EAB3B9511958D425001E0360 /* PlayerCell.m */,
+				EAB93C311958DFDC004C9BA5 /* PlayerDetailsViewController.h */,
+				EAB93C321958DFDC004C9BA5 /* PlayerDetailsViewController.m */,
 			);
 			path = Ratings;
 			sourceTree = "<group>";
@@ -375,6 +380,7 @@
 				EAB3B8F119588DC7001E0360 /* main.m in Sources */,
 				EAB3B9521958D425001E0360 /* PlayerCell.m in Sources */,
 				EAB3B94F1958CA23001E0360 /* Player.m in Sources */,
+				EAB93C331958DFDC004C9BA5 /* PlayerDetailsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -579,6 +585,7 @@
 				EAB3B91519588DC7001E0360 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EAB3B91619588DC7001E0360 /* Build configuration list for PBXNativeTarget "RatingsTests" */ = {
 			isa = XCConfigurationList;
@@ -587,6 +594,7 @@
 				EAB3B91819588DC7001E0360 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

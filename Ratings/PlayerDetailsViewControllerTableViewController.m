@@ -1,20 +1,18 @@
 //
-//  PlayersViewController.m
+//  PlayerDetailsViewControllerTableViewController.m
 //  Ratings
 //
 //  Created by Jesus Magana on 6/23/14.
 //  Copyright (c) 2014 ZeroLinux5. All rights reserved.
 //
 
-#import "PlayersViewController.h"
-#import "Player.h"
-#import "PlayerCell.h"
+#import "PlayerDetailsViewControllerTableViewController.h"
 
-@interface PlayersViewController ()
+@interface PlayerDetailsViewControllerTableViewController ()
 
 @end
 
-@implementation PlayersViewController
+@implementation PlayerDetailsViewControllerTableViewController
 
 - (id)initWithStyle:(UITableViewStyle)style
 {
@@ -46,59 +44,28 @@
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
 {
-    return 1;
+#warning Potentially incomplete method implementation.
+    // Return the number of sections.
+    return 0;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-    return [self.players count];
+#warning Incomplete method implementation.
+    // Return the number of rows in the section.
+    return 0;
 }
 
+/*
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    PlayerCell *cell = (PlayerCell *)[tableView dequeueReusableCellWithIdentifier:@"PlayerCell"];
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:<#@"reuseIdentifier"#> forIndexPath:indexPath];
     
-    Player *player = (self.players)[indexPath.row];
-    cell.nameLabel.text = player.name;
-    cell.gameLabel.text = player.game;
-    cell.ratingImageView.image = [self imageForRating:player.rating];
+    // Configure the cell...
     
     return cell;
 }
-
-- (UIImage *)imageForRating:(int)rating
-{
-    switch (rating) {
-        case 1: return [UIImage imageNamed:@"1StarSmall"];
-        case 2: return [UIImage imageNamed:@"2StarsSmall"];
-        case 3: return [UIImage imageNamed:@"3StarsSmall"];
-        case 4: return [UIImage imageNamed:@"4StarsSmall"];
-        case 5: return [UIImage imageNamed:@"5StarsSmall"];
-    }
-    return nil;
-}
-
-#pragma mark - PlayerDetailsViewControllerDelegate
-
-- (void)playerDetailsViewControllerDidCancel:(PlayerDetailsViewController *)controller
-{
-    [self dismissViewControllerAnimated:YES completion:nil];
-}
-
-- (void)playerDetailsViewControllerDidSave:(PlayerDetailsViewController *)controller
-{
-    [self dismissViewControllerAnimated:YES completion:nil];
-}
-
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
-{
-    if ([segue.identifier isEqualToString:@"AddPlayer"]) {
-        
-        UINavigationController *navigationController = segue.destinationViewController;
-        PlayerDetailsViewController *playerDetailsViewController = [navigationController viewControllers][0];
-        playerDetailsViewController.delegate = self;
-    }
-}
+*/
 
 /*
 // Override to support conditional editing of the table view.
