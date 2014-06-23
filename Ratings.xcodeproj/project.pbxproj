@@ -47,6 +47,7 @@
 		EAB3B9491958C69F001E0360 /* Players@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EAB3B9311958C69F001E0360 /* Players@2x.png */; };
 		EAB3B94C1958C998001E0360 /* PlayersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EAB3B94B1958C998001E0360 /* PlayersViewController.m */; };
 		EAB3B94F1958CA23001E0360 /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = EAB3B94E1958CA23001E0360 /* Player.m */; };
+		EAB3B9521958D425001E0360 /* PlayerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EAB3B9511958D425001E0360 /* PlayerCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -107,6 +108,8 @@
 		EAB3B94B1958C998001E0360 /* PlayersViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayersViewController.m; sourceTree = "<group>"; };
 		EAB3B94D1958CA23001E0360 /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
 		EAB3B94E1958CA23001E0360 /* Player.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Player.m; sourceTree = "<group>"; };
+		EAB3B9501958D425001E0360 /* PlayerCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerCell.h; sourceTree = "<group>"; };
+		EAB3B9511958D425001E0360 /* PlayerCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -178,6 +181,8 @@
 				EAB3B94B1958C998001E0360 /* PlayersViewController.m */,
 				EAB3B94D1958CA23001E0360 /* Player.h */,
 				EAB3B94E1958CA23001E0360 /* Player.m */,
+				EAB3B9501958D425001E0360 /* PlayerCell.h */,
+				EAB3B9511958D425001E0360 /* PlayerCell.m */,
 			);
 			path = Ratings;
 			sourceTree = "<group>";
@@ -368,6 +373,7 @@
 				EAB3B94C1958C998001E0360 /* PlayersViewController.m in Sources */,
 				EAB3B8F519588DC7001E0360 /* RWTAppDelegate.m in Sources */,
 				EAB3B8F119588DC7001E0360 /* main.m in Sources */,
+				EAB3B9521958D425001E0360 /* PlayerCell.m in Sources */,
 				EAB3B94F1958CA23001E0360 /* Player.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
