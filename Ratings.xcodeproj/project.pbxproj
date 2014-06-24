@@ -49,6 +49,7 @@
 		EAB3B94F1958CA23001E0360 /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = EAB3B94E1958CA23001E0360 /* Player.m */; };
 		EAB3B9521958D425001E0360 /* PlayerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EAB3B9511958D425001E0360 /* PlayerCell.m */; };
 		EAB93C331958DFDC004C9BA5 /* PlayerDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EAB93C321958DFDC004C9BA5 /* PlayerDetailsViewController.m */; };
+		EAB93C3619591499004C9BA5 /* GamePickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EAB93C3519591499004C9BA5 /* GamePickerViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -113,6 +114,8 @@
 		EAB3B9511958D425001E0360 /* PlayerCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerCell.m; sourceTree = "<group>"; };
 		EAB93C311958DFDC004C9BA5 /* PlayerDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerDetailsViewController.h; sourceTree = "<group>"; };
 		EAB93C321958DFDC004C9BA5 /* PlayerDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerDetailsViewController.m; sourceTree = "<group>"; };
+		EAB93C3419591499004C9BA5 /* GamePickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GamePickerViewController.h; sourceTree = "<group>"; };
+		EAB93C3519591499004C9BA5 /* GamePickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GamePickerViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -188,6 +191,8 @@
 				EAB3B9511958D425001E0360 /* PlayerCell.m */,
 				EAB93C311958DFDC004C9BA5 /* PlayerDetailsViewController.h */,
 				EAB93C321958DFDC004C9BA5 /* PlayerDetailsViewController.m */,
+				EAB93C3419591499004C9BA5 /* GamePickerViewController.h */,
+				EAB93C3519591499004C9BA5 /* GamePickerViewController.m */,
 			);
 			path = Ratings;
 			sourceTree = "<group>";
@@ -378,6 +383,7 @@
 				EAB3B94C1958C998001E0360 /* PlayersViewController.m in Sources */,
 				EAB3B8F519588DC7001E0360 /* RWTAppDelegate.m in Sources */,
 				EAB3B8F119588DC7001E0360 /* main.m in Sources */,
+				EAB93C3619591499004C9BA5 /* GamePickerViewController.m in Sources */,
 				EAB3B9521958D425001E0360 /* PlayerCell.m in Sources */,
 				EAB3B94F1958CA23001E0360 /* Player.m in Sources */,
 				EAB93C331958DFDC004C9BA5 /* PlayerDetailsViewController.m in Sources */,
